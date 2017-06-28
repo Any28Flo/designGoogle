@@ -32,8 +32,12 @@
     @return percentage(($i/12));
 }
 
+
 @for $i from 1 through 12{
     .col-#{$i}{
         width: anchoDeColumnas($i);
+    }
+    .col-#{$i}-offset{
+        margin-left: anchoDeColumnas($i);
     }
 }
