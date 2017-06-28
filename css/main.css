@@ -113,4 +113,12 @@
 .postcast img {
   width: 100%; }
 
+h1, h3 {
+  font-family: "Roboto", sans-serif;
+  color: #424242; }
+
+hr {
+  background-color: #4285f4;
+  height: 5px; }
+
 /*# sourceMappingURL=main.css.map */

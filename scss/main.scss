@@ -38,3 +38,14 @@ $espacio15p: 50px;
         width: 100%;
     }
 }
+h1{
+    font-family: $fuente;
+    color: $grisOscuroTitulo;
+}
+h3{
+    @extend h1;
+}
+hr{
+    background-color: $azul;
+    height: 5px;
+}
