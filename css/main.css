@@ -92,6 +92,9 @@
 .col-12-offset {
   margin-left: 100%; }
 
+.colorAzul {
+  color: #4285f4; }
+
 .logo {
   text-align: center; }
   .logo img {
@@ -120,5 +123,20 @@ h1, h3 {
 hr {
   background-color: #4285f4;
   height: 5px; }
+
+.noticias img {
+  width: 100%; }
+.noticias span {
+  color: #5f6368; }
+
+.signup {
+  background-color: #5f6368; }
+
+p {
+  color: #414549;
+  text-align: justify; }
+
+img {
+  width: 90%; }
 
 /*# sourceMappingURL=main.css.map */

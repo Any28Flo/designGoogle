@@ -2,13 +2,15 @@
 
 $grisOscuroTitulo : #424242;
 $grisClaroFecha: #5f6368;
-$grisTexo: #414549;
+$grisTexto: #414549;
 $azul: #4285f4;
 $fuente: 'Roboto', sans-serif;
 $ancho : 250px;
 $margenTop : 50px;
 $espacio15p: 50px;
-
+.colorAzul{
+  color: $azul;
+}
 .logo{
     text-align: center;
     img{
@@ -20,7 +22,7 @@ $espacio15p: 50px;
    margin-top: $margenTop;
 }
 .listaItems{
-    
+
     text-align: center;
     font-family: $fuente;
     a{
@@ -29,9 +31,9 @@ $espacio15p: 50px;
     li{
         display: inline-block;
         padding-left: $espacio15p;
-       
 
-    }    
+
+    }
 }
 .postcast{
     img{
@@ -48,4 +50,25 @@ h3{
 hr{
     background-color: $azul;
     height: 5px;
+}
+.noticias
+{
+  img{
+    width: 100%;
+  }
+  span{
+    color: $grisClaroFecha;
+  }
+
+
+}
+.signup{
+  background-color: $grisClaroFecha;
+}
+p{
+  color: $grisTexto;
+  text-align: justify;
+}
+img{
+  width: 90%;
 }
